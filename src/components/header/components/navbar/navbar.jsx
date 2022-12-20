@@ -5,8 +5,8 @@ import "./navbar.css";
 export const Navbar = () => {
   return (
     <div className="container">
-      <img className="site-logo" src={logo} alt="site-logo" />
       <nav className="navbar">
+        <img className="site-logo" src={logo} alt="site-logo" />
         <ul className="navbar-list">
           <li className="navbar-item">Home</li>
           <li className="navbar-item">About us</li>
@@ -15,6 +15,9 @@ export const Navbar = () => {
           <li className="navbar-item">FAQ</li>
           <li className="navbar-item">Blog</li>
         </ul>
+        <a className="navbar-link" href="sklgvm">
+          Contact us
+        </a>
       </nav>
     </div>
   );
