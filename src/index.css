@@ -22,7 +22,18 @@
     url("./assets/fonts/poppins-v20-latin-600.woff2") format("woff2"),
     url("./assets/fonts/poppins-v20-latin-600.woff") format("woff");
 }
-
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("./assets/fonts/manrope-v13-latin-600.woff2") format("woff2"),
+    url("./assets/fonts/manrope-v13-latin-600.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Poppins";
   font-style: normal;
@@ -37,6 +48,14 @@ body {
   max-width: 1420px;
   margin: 0 auto;
   padding: 0 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 ul,
 ol {

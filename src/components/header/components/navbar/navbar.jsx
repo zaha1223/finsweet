@@ -15,7 +15,7 @@ export const Navbar = () => {
           <li className="navbar-item">FAQ</li>
           <li className="navbar-item">Blog</li>
         </ul>
-        <a className="navbar-link" href="sklgvm">
+        <a className="navbar-link" href="#w">
           Contact us
         </a>
       </nav>

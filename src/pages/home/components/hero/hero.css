@@ -1,0 +1,53 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding-top: 126px;
+  padding-bottom: 128px;
+  /* background: #1c1e53; */
+}
+.hero-content {
+  width: 579px;
+  margin-right: 60px;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+.hero-work-link {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1b1c2b;
+  padding: 16px 56px;
+  background: #fcd980;
+  border-radius: 41px;
+  margin-right: 40px;
+}
+.hero-pricing-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-right: 40px;
+  background-image: url(../../../../assets/imgs/arrow-i.svg);
+  background-repeat: no-repeat;
+  background-position-x: 112px;
+  background-position-y: center;
+}
+.hero-img {
+  width: 638px;
+  height: auto;
+}
