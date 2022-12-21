@@ -1,0 +1,16 @@
+.pers {
+    width: 150px;
+    height: 150px;
+}
+.box {
+    padding: 30px 45px;
+    background: white;
+}
+.name, .lastname {
+    text-align: center;
+}
+.name {
+    font-size: 22px;
+    padding-top: 20px;
+    font-family: arial;
+}

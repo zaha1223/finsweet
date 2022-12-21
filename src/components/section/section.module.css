@@ -1,0 +1,14 @@
+section {
+    padding:0 100px;
+}
+.processFlex {
+    display: flex;
+    gap: 50px;
+}
+.secHead {
+    font-weight: 600;
+    font-family: arial;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 40px;
+}
