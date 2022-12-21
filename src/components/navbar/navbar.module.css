@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background: #1C1E53;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navLink {
+    text-decoration: none;
+    color: #BBBBCB;
+}
+.navBtn {
+    padding: 12px 32px;
+    background: transparent;
+    color: white;
+    border: 1px solid #F4F6FC33;
+    border-radius: 30px;
+}

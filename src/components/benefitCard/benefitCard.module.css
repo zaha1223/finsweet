@@ -1,0 +1,17 @@
+.bencardbox {
+    width: 350px;
+    height: 250px;
+    background: #F4F6FC;
+    padding: 30px;
+}
+.head {
+    font-family: arial;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    color: #282938;
+    opacity:  .7;
+}
