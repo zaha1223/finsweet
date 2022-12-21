@@ -1,0 +1,75 @@
+/** @format */
+
+.questions_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px;
+}
+.questions_content {
+  max-width: 300px;
+}
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+}
+.subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2405f2;
+  opacity: 0.87;
+  margin-top: 10px;
+}
+.questions {
+  max-width: 740px;
+}
+.question-box {
+  display: flex;
+  gap: 40px;
+  padding: 15px;
+}
+.number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #2405f2;
+}
+.question {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282938;
+}
+.example {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #282938;
+  opacity: 0.87;
+  margin-top: 10px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 10px;
+}
+.line {
+  display: inline-block;
+  width: 730px;
+  height: 3px;
+  background-color: #ececf1;
+}

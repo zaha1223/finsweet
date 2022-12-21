@@ -1,0 +1,36 @@
+/** @format */
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 89px;
+  padding: 40px 90px;
+}
+.logo_number {
+  max-width: 176px;
+}
+.logo_number_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+}
+.logo_number_subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.logo_list {
+  display: flex;
+  gap: 45px;
+}
+.logo_item {
+  max-width: 136px;
+  height: 32px;
+}

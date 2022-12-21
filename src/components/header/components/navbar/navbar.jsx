@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import logo from "../../../../assets/imgs/logo.svg";
 export const Navbar = () => {
