@@ -1,0 +1,63 @@
+.questions{
+    display: flex;
+    align-items: flex-start;
+    gap: 53px;
+}
+.ques-title-wrap{
+    flex-grow: 1;
+}
+.ques-title{
+    font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+color: #282938;
+}
+.ques-title-link{
+    font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #2405F2;
+opacity: 0.87;
+}
+.ques-list{
+display: flex;
+flex-direction: column;
+flex-grow: 2;
+}
+.ques-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0 ;
+    border-bottom: 1px solid rgba(194, 187, 255, 0.7);
+}
+.ques-inner-wrap{
+    display: flex;
+    align-items: center;
+}
+.ques-number{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #2405F2;
+margin-right: 53px;
+}
+.ques-content{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #282938;
+text-align: start;
+}
+.plus-btn{
+    color: #282938;
+    opacity: 0.7;
+    font-size: 24px;
+}
+.modal{
+    display: none;
+}
+.ques-item[aria-expanded="true"] .modal{
+display: block;
+}
